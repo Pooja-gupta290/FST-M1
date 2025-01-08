@@ -1,0 +1,8 @@
+--Add the grade column
+ALTER TABLE salesman
+ADD grade INT;
+--Set the grade Column Value to 100 for All Records
+UPDATE salesman
+SET grade = 100;
+--Verify the Changes Using the SELECT Statement
+SELECT * FROM salesman;
